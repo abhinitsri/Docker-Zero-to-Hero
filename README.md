@@ -228,7 +228,7 @@ sudo usermod -aG docker ubuntu
 In the above command `ubuntu` is the name of the user, you can change the username appropriately.
 
 **NOTE:** : You need to logout and login back for the changes to be reflected.
-
+**NOTE:** : If above user permission change does not work , then must try "chmod 777 /var/run/docker.sock". It worked for me. Thanks.
 
 ### Docker is Installed, up and running 🥳🥳
 
